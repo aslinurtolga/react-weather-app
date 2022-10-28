@@ -36,7 +36,7 @@ const Main = () => {
           autoFocus
         />
         <button type="submit">SUBMIT</button>
-        <span className="msg">error</span>
+        {/* <span className="msg">error</span> */}
       </form>
       <div className="container">
         <ul className="cities">

@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container">
         <center>
           <img
-            src="https://d1psgljc389n8q.cloudfront.net/bootcamps/logos/VX6tpIUJa"
+            src="https://media.giphy.com/media/9G1tb6uVcZ0vJeZSIe/giphy.gif"
             alt="Bank logo"
             className="nav__logo"
             id="logo"
