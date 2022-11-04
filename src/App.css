@@ -1,4 +1,3 @@
-
 /* RESET STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
@@ -9,7 +8,6 @@
   --red: #ff1e42;
   --darkred: #c3112d;
   --orange: #ff8c00;
-
 }
 
 * {
@@ -26,17 +24,15 @@ a {
 
 button {
   cursor: pointer;
-  
 }
- 
+
 button,
 input {
   border: none;
   background: none;
   outline: none;
   color: inherit;
-  font-family: 'Josefin Sans', sans-serif;
-
+  font-family: "Josefin Sans", sans-serif;
 }
 
 img {
@@ -53,24 +49,20 @@ li {
   width: 280px;
 }
 
-
 body {
   font: 1rem/1.3 "Josefin Sans", sans-serif;
   background: url(https://drscdn.500px.org/photo/192306115/m=2048/1b8bc8226bf55ad3782ec109f1802b52);
-  background-repeat: no-repeat;
-  background-size: cover;
   color: var(--text_dark);
-  padding: 20px 50px ;
+  padding: 20px 70px;
+  /* max-width: 1200px; */
 }
 
 .container {
-   width: 100%;
-  max-width: 1200px; 
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  
 }
-
 
 /* SECTION #1
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -102,11 +94,11 @@ body {
   padding: 5px 5px 10px;
   border-bottom: 1px solid;
   justify-content: center;
-  color: #7F8487;
+  color: #7f8487;
 }
 
 .main form input::placeholder {
-  color: #7F8487; 
+  color: #7f8487;
 }
 
 .main form button {
@@ -126,11 +118,11 @@ body {
 
 .main form .msg {
   position: absolute;
-  bottom: -45px;
-  left: 505px;
+  bottom: -40px;
+  left: 0;
   max-width: 450px;
   min-height: 40px;
-  color: #7F8487;
+  color: #7f8487;
   font-size: 15px;
   font-weight: 600;
 }
@@ -154,7 +146,7 @@ body {
 }
 
 .main .city::after {
-  content: '';
+  content: "";
   width: 90%;
   height: 50px;
   position: absolute;
@@ -196,7 +188,6 @@ body {
   height: 100px;
 }
 
-
 /* FOOTER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-footer {
@@ -208,27 +199,27 @@ body {
 
 .page-footer span {
   color: var(--red);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: larger;
 }
 
-#logo{
+#logo {
   width: 100px;
   height: 100px;
 }
 
 small {
-color: var(--text_light);
-font-size: 14px;
+  color: var(--text_light);
+  font-size: 14px;
 }
 
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (max-width: 1000px) {
-  /* body {
+  body {
     padding: 30px;
-  } */
-  
+  }
+
   .main .cities {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -239,16 +230,16 @@ font-size: 14px;
   .main .city-temp {
     font-size: 3rem;
   }
-  
+
   .main {
     margin-top: 20px;
   }
-  
+
   .main form {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .main form input,
   .main form button {
     width: 100%;
@@ -257,7 +248,7 @@ font-size: 14px;
   .main form button {
     margin: 20px 0 0 0;
   }
-  
+
   .main form .msg {
     position: static;
     max-width: none;
@@ -274,12 +265,11 @@ font-size: 14px;
   body {
     padding: 15px;
   }
-  
+
   .main .cities {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
 
 /* API Key banner
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
