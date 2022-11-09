@@ -194,7 +194,6 @@ body {
   text-align: right;
   font-size: 1rem;
   color: var(--text_light);
-  margin-top: 40px;
 }
 
 .page-footer span {
@@ -219,6 +218,9 @@ small {
   body {
     padding: 30px;
   }
+  .page-footer{
+  display: flex;  
+}
 
   .main .cities {
     grid-template-columns: repeat(3, 1fr);

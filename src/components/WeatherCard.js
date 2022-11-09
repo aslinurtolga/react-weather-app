@@ -16,7 +16,7 @@ const WeatherCard = ({ item }) => {
         <sup>{country}</sup>
       </h2>
       <div className="city-temp">
-        {temp}
+        {Math.round(temp)}
         <sup>°C</sup>
       </div>
       <figure>
